@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+background-image: url(services-background.png);  
+background-position: center;
+background-size: cover;
+padding-left: 8%;
+padding-right: 8%;
+box-sizing: border-box;
+
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+
+.icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+   
+}
+nav {
+    font-weight: bolder;
+    font-size: 30px;
+    flex: 1;
+    text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bolder;
+   text-shadow: rgb(5, 0, 0); 
+   
+ 
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+background-position: 80px;
+    background-size: contain;
+    position: relative;
+    text-decoration: none;
+    font-weight: bolder;
+    position: sticky;
+    display: inline-block;
+  border-radius: 50px 50px;
+  box-sizing: border-box 50px;
+background-color: #ffffff;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+box-shadow: #000000 20px 20px 10px;
+  
+   
+    
+
+}
+
+nav ul li a{
+   
+    text-decoration: none;
+color: #000000;
+font-size: 30px;
+
+}
+
+.row{
+    display: flex;
+    height: 60%;
+    align-items: center;
+
+    
+}
+
+.cl {
+    flex-basis: 50%;
+   
+}
+
+h1{
+    color: #fff;
+    font-size: 85px;
+    text-shadow: black 5px 2px 4px;
+    position: absolute;
+    top: 220px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: black 5px 2px 4px;
+    
+    
+}
+
+.sd {
+    padding-left: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 1em;
+    padding-bottom: 10px;
+   text-size-adjust: 100px
+   initial
+   
+}
+
+.card {
+  width: 200px;
+  height: 250px;
+  display: inline-block;
+  border-radius: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 10px;
+  transition: ease-in 20ms;
+background-position: center;
+background-size: cover;
+
+}
+
+
+
+.card1{
+    background-image: url(https://j.top4top.io/p_2592875ty1.png);
+    margin-left: auto; 
+    margin-right: 0;
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    border: 1px solid #000000;
+
+}
+
+
+
+
+
+
+
+
+.card:hover{
+    transform: translateY(-10px);
+ }
+
+ .L {
+
+font-size: 100px;
+position: absolute;
+top: 80px;
+left: 1540px;
+
+border: 9px solid #ffffff;
+border-radius: 20px;
+box-sizing: border-box;
+background-color: #000000;
+ }
+
+ .Y {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 220px; 
+
+border-width: 3px;
+box-sizing: border-box ;
+text-shadow: #fa0000 5px 5px;
+ }
+
+
+.P1{
+    display: inline-block;
+    color: #ffffff;
+    text-shadow: none;
+    text-align: center;
+    font-size: 40px;
+}
+ 
+.Se {
+    position: absolute;
+    top: 340px;
+
+}
+
+#box1, #box2 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
+.Box {
+    position: absolute;
+    right: 870px;
+    bottom: 290px;
+    border-radius: 50px;
+}
+
+.S2 {
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+ 
+}
+
+.Box2 {
+    position: absolute;
+bottom: 340px;
+border-radius: 50px;
+border-color: #fff 50px 50px;
+box-shadow: #000000 20px 20px 10px;
+}
+
+.card5 {
+ 
+    background-image: url(https://e.top4top.io/p_259322io41.jpg);
+    position: absolute;
+  top: -13px;
+ right: 700px;
+ box-shadow: #ff0303 10px 20px 20px;
+}
+
+
+.Box1 {
+    position: absolute;
+    bottom: -300px;
+    border-radius: 50px;
+border-color: #fff 50px 50px;
+box-shadow: #000000 20px 20px 10px;
+   
+}
+
+.card1 {
+    background-image: url(23.png);
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 10px;
+    transition: ease-in 20ms;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  box-shadow: #2c075e 10px 20px 20px;
+}
+
+.hh2 {
+    position: absolute;
+    right: -80px;
+    top: 10px;
+    font-size: 20px;
+    text-shadow: blue 5px 7px;
+
+}
+
+.pp2 {
+ position: absolute;
+bottom: 120px;
+ left: 200px;
+}
